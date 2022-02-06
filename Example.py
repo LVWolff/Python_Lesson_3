@@ -84,7 +84,7 @@ word_dict = {}
 for i in difword_list:
     word_dict[i] = word_list.count(i)
 
-print("Словарь с количестом слов:", word_dict)
+print("Словарь с количеством слов:", word_dict)
 
 # Задание №5 сортировка словаря
 sorted_value = sorted(word_dict.values())
